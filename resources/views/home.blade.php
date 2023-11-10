@@ -1,12 +1,12 @@
 @extends('template')
 @section('content')
 
-
-<div>
-	<!-- Destacado -->
+<div class="bg-gray-900 px-20 py-16 rounded-lg mb-8 relative overflow-hidden">
+    <span class="text-xs uppercase text-gray-700 bg-gray-400 rounded-full px-2 py-1">Programación</span>
+    <h1 class="text-3xl text-white mt-4">Blog</h1>
+    <p class="text-sm text-gray-400 mt-2">Proyecto de desarrollo web para profesionales</p>
+    <img src="{{ Vite::asset('resources/images/Dev_512.png') }}" class="absolute -right-10 -bottom-32 opacity-20">
 </div>
-
-<h1>Home</h1>
 
 <div class="px-4">
     <h1 class="text-2xl mb-8 text-gray-900">Contenido técnico</h1>
